@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/IPSP.Case.Dto" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/IPSP.Case.Dto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/IPSP.Client.Dto" />
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/Abp.Application.Services.Dto" />
+  <xs:complexType name="ArrayOfBaseCaseDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BaseCaseDto" nillable="true" type="tns:BaseCaseDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBaseCaseDto" nillable="true" type="tns:ArrayOfBaseCaseDto" />
+  <xs:complexType name="BaseCaseDto">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/Abp.Application.Services.Dto" base="q1:EntityDto">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Id" type="xs:int" />
+          <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/IPSP.Client.Dto" minOccurs="0" name="TheClient" nillable="true" type="q2:ClientDto" />
+          <xs:element minOccurs="0" name="n_ClientID" type="xs:int" />
+          <xs:element minOccurs="0" name="s_CaseName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="s_CaseSerial" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="BaseCaseDto" nillable="true" type="tns:BaseCaseDto" />
+</xs:schema>

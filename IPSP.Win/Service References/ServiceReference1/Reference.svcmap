@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="81e40707-4b0e-4dca-ab03-d94be731fddd" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://localhost:2016/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="ab0756c2-3ddc-442c-bd39-eb206a1bf574" SourceId="1" SourceUrl="net.tcp://localhost:2016/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="8ff63e1f-8d66-40a4-b51c-b8098437ff70" SourceId="1" SourceUrl="net.tcp://localhost:2016/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="92ed1c3d-5e79-4277-883c-a83395bb88ed" SourceId="1" SourceUrl="net.tcp://localhost:2016/mex" />
+    <MetadataFile FileName="IPSP.Case.Dto.xsd" MetadataType="Schema" ID="46e0b1c1-6fce-47af-a2ab-02be92a9850e" SourceId="1" SourceUrl="net.tcp://localhost:2016/mex" />
+    <MetadataFile FileName="Abp.Application.Services.Dto.xsd" MetadataType="Schema" ID="1c94bc63-4b43-42e7-8620-a1e4e41458b9" SourceId="1" SourceUrl="net.tcp://localhost:2016/mex" />
+    <MetadataFile FileName="IPSP.Client.Dto.xsd" MetadataType="Schema" ID="ba9660cb-4537-44d3-a4c7-663d306df088" SourceId="1" SourceUrl="net.tcp://localhost:2016/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

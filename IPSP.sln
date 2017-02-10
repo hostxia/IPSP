@@ -1,0 +1,153 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DFA48E27-7D53-4955-A722-3D91A7119BE7}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPSP.Core", "IPSP.Core\IPSP.Core.csproj", "{17298EA0-AF73-4F30-B6F1-2066100D7D74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPSP.Application", "IPSP.Application\IPSP.Application.csproj", "{EDF5D964-4C0F-4F19-B674-58A38A5E5401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPSP.EntityFramework", "IPSP.EntityFramework\IPSP.EntityFramework.csproj", "{3979F157-DEB0-4878-AB1D-4CEF6B5A1300}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPSP.Web", "IPSP.Web\IPSP.Web.csproj", "{897F6FD8-6F90-48E4-95A5-B4429B896205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPSP.WebApi", "IPSP.WebApi\IPSP.WebApi.csproj", "{5EB52D3D-09FD-463A-B02A-8D9856BD3724}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dll", "_Dll", "{CFF41686-E480-466E-B520-631FFEA04C59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Image", "_Image", "{869772D6-324C-4233-A903-6DFFF25E027C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Doc", "_Doc", "{EBDD2955-0D9A-4CCB-BD17-E2E6CE21955D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Script", "_Script", "{FB3A115C-4A2D-47AA-B24A-DA7B650E00C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{54529D58-5217-4E81-9473-148970685DF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Win", "Win", "{28D26111-4B01-420B-A443-7FECF2BF64E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPSP.Wcf", "IPSP.WCF\IPSP.Wcf.csproj", "{E8B7BB5E-DD97-45D2-A8DD-F48F365CEF91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPSP.Win", "IPSP.Win\IPSP.Win.csproj", "{4A6B788B-4B4D-40BA-96A5-8530FB89F5FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPSP.Util", "IPSP.Util\IPSP.Util.csproj", "{25CBBDE1-5C5D-4C77-9B16-AA7BA58F7CBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_File", "_File", "{390F0963-43BD-4194-912F-BFADB2150D54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Test", "_Test", "{CF026995-A65E-4A63-887B-AD8A472AFA76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPSPApplicationService.Test", "IPSPApplicationService.Test\IPSPApplicationService.Test.csproj", "{298F77A4-333B-4320-AD09-6041B9BEAE08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPSPApplicationService.MockTest", "IPSPApplicationService.MockTest\IPSPApplicationService.MockTest.csproj", "{EC0C6200-E8F0-4EFC-8C57-5B85775DBC98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17298EA0-AF73-4F30-B6F1-2066100D7D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17298EA0-AF73-4F30-B6F1-2066100D7D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17298EA0-AF73-4F30-B6F1-2066100D7D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17298EA0-AF73-4F30-B6F1-2066100D7D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDF5D964-4C0F-4F19-B674-58A38A5E5401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF5D964-4C0F-4F19-B674-58A38A5E5401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF5D964-4C0F-4F19-B674-58A38A5E5401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF5D964-4C0F-4F19-B674-58A38A5E5401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3979F157-DEB0-4878-AB1D-4CEF6B5A1300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3979F157-DEB0-4878-AB1D-4CEF6B5A1300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3979F157-DEB0-4878-AB1D-4CEF6B5A1300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3979F157-DEB0-4878-AB1D-4CEF6B5A1300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{897F6FD8-6F90-48E4-95A5-B4429B896205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{897F6FD8-6F90-48E4-95A5-B4429B896205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{897F6FD8-6F90-48E4-95A5-B4429B896205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{897F6FD8-6F90-48E4-95A5-B4429B896205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB52D3D-09FD-463A-B02A-8D9856BD3724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB52D3D-09FD-463A-B02A-8D9856BD3724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB52D3D-09FD-463A-B02A-8D9856BD3724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB52D3D-09FD-463A-B02A-8D9856BD3724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8B7BB5E-DD97-45D2-A8DD-F48F365CEF91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B7BB5E-DD97-45D2-A8DD-F48F365CEF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B7BB5E-DD97-45D2-A8DD-F48F365CEF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B7BB5E-DD97-45D2-A8DD-F48F365CEF91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6B788B-4B4D-40BA-96A5-8530FB89F5FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6B788B-4B4D-40BA-96A5-8530FB89F5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6B788B-4B4D-40BA-96A5-8530FB89F5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6B788B-4B4D-40BA-96A5-8530FB89F5FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25CBBDE1-5C5D-4C77-9B16-AA7BA58F7CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25CBBDE1-5C5D-4C77-9B16-AA7BA58F7CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25CBBDE1-5C5D-4C77-9B16-AA7BA58F7CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25CBBDE1-5C5D-4C77-9B16-AA7BA58F7CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{298F77A4-333B-4320-AD09-6041B9BEAE08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298F77A4-333B-4320-AD09-6041B9BEAE08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298F77A4-333B-4320-AD09-6041B9BEAE08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298F77A4-333B-4320-AD09-6041B9BEAE08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC0C6200-E8F0-4EFC-8C57-5B85775DBC98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC0C6200-E8F0-4EFC-8C57-5B85775DBC98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC0C6200-E8F0-4EFC-8C57-5B85775DBC98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC0C6200-E8F0-4EFC-8C57-5B85775DBC98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{897F6FD8-6F90-48E4-95A5-B4429B896205} = {54529D58-5217-4E81-9473-148970685DF4}
+		{5EB52D3D-09FD-463A-B02A-8D9856BD3724} = {54529D58-5217-4E81-9473-148970685DF4}
+		{CFF41686-E480-466E-B520-631FFEA04C59} = {390F0963-43BD-4194-912F-BFADB2150D54}
+		{869772D6-324C-4233-A903-6DFFF25E027C} = {390F0963-43BD-4194-912F-BFADB2150D54}
+		{EBDD2955-0D9A-4CCB-BD17-E2E6CE21955D} = {390F0963-43BD-4194-912F-BFADB2150D54}
+		{FB3A115C-4A2D-47AA-B24A-DA7B650E00C6} = {390F0963-43BD-4194-912F-BFADB2150D54}
+		{E8B7BB5E-DD97-45D2-A8DD-F48F365CEF91} = {28D26111-4B01-420B-A443-7FECF2BF64E4}
+		{4A6B788B-4B4D-40BA-96A5-8530FB89F5FB} = {28D26111-4B01-420B-A443-7FECF2BF64E4}
+		{298F77A4-333B-4320-AD09-6041B9BEAE08} = {CF026995-A65E-4A63-887B-AD8A472AFA76}
+		{EC0C6200-E8F0-4EFC-8C57-5B85775DBC98} = {CF026995-A65E-4A63-887B-AD8A472AFA76}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://hostxia.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = IPSP.Application\\IPSP.Application.csproj
+		SccProjectName1 = IPSP.Application
+		SccLocalPath1 = IPSP.Application
+		SccProjectUniqueName2 = IPSP.Core\\IPSP.Core.csproj
+		SccProjectName2 = IPSP.Core
+		SccLocalPath2 = IPSP.Core
+		SccProjectUniqueName3 = IPSP.EntityFramework\\IPSP.EntityFramework.csproj
+		SccProjectName3 = IPSP.EntityFramework
+		SccLocalPath3 = IPSP.EntityFramework
+		SccProjectUniqueName4 = IPSP.Web\\IPSP.Web.csproj
+		SccProjectTopLevelParentUniqueName4 = IPSP.sln
+		SccProjectName4 = IPSP.Web
+		SccLocalPath4 = IPSP.Web
+		SccProjectUniqueName5 = IPSP.WebApi\\IPSP.WebApi.csproj
+		SccProjectTopLevelParentUniqueName5 = IPSP.sln
+		SccProjectName5 = IPSP.WebApi
+		SccLocalPath5 = IPSP.WebApi
+		SccProjectUniqueName6 = IPSP.WCF\\IPSP.Wcf.csproj
+		SccProjectTopLevelParentUniqueName6 = IPSP.sln
+		SccProjectName6 = IPSP.WCF
+		SccLocalPath6 = IPSP.WCF
+		SccProjectUniqueName7 = IPSP.Win\\IPSP.Win.csproj
+		SccProjectTopLevelParentUniqueName7 = IPSP.sln
+		SccProjectName7 = IPSP.Win
+		SccLocalPath7 = IPSP.Win
+		SccProjectUniqueName8 = IPSP.Util\\IPSP.Util.csproj
+		SccProjectName8 = IPSP.Util
+		SccLocalPath8 = IPSP.Util
+		SccProjectUniqueName9 = IPSPApplicationService.Test\\IPSPApplicationService.Test.csproj
+		SccProjectTopLevelParentUniqueName9 = IPSP.sln
+		SccProjectName9 = IPSPApplicationService.Test
+		SccLocalPath9 = IPSPApplicationService.Test
+		SccProjectUniqueName10 = IPSPApplicationService.MockTest\\IPSPApplicationService.MockTest.csproj
+		SccProjectTopLevelParentUniqueName10 = IPSP.sln
+		SccProjectName10 = IPSPApplicationService.MockTest
+		SccLocalPath10 = IPSPApplicationService.MockTest
+	EndGlobalSection
+EndGlobal

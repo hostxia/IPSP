@@ -1,0 +1,23 @@
+DEBUG 2017-01-12 13:50:16,639 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-01-12 13:50:18,220 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-01-12 13:50:18,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-12 13:50:18,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-12 13:50:18,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-12 13:50:18,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-12 13:50:18,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-12 13:50:18,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-12 13:50:18,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IPSP.IPSPApplicationModule, IPSP.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-12 13:50:18,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IPSP.IPSPCoreModule, IPSP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-12 13:50:18,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IPSP.IPSPDataModule, IPSP.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-12 13:50:18,227 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IPSP.Web.IPSPWebModule, IPSP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-12 13:50:18,227 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: IPSP.IPSPWebApiModule, IPSP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-12 13:50:18,230 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-01-12 13:50:20,883 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-01-12 13:50:20,889 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-01-12 13:50:20,890 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-01-12 13:50:20,907 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: IPSP
+DEBUG 2017-01-12 13:50:21,372 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-12 13:50:22,123 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2017-01-12 13:50:22,178 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'IPSP.Case.IBaseCaseService' with service name 'app/baseCase'.
+WARN  2017-01-12 13:50:28,209 [14   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-01-12 13:50:28,229 [14   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
